@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import { defineEmits as dEmits }  from 'vue'  ;
+// import { defineEmits as dEmits }  from 'vue'  ;
 
-const emits = dEmits(['selectOption']);
+const emits = defineEmits(['selectOption']);
 
 const selectOption = (isColor: boolean) => {
   emits("selectOption", isColor);

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { defineProps as dProps } from 'vue';
+// import { defineProps as dProps } from 'vue';
 
-const p = dProps(["isWithColor"]);
+const p = defineProps(["isWithColor"]);
 const copyUrl = async (url: string) => {
   await navigator.clipboard.writeText(url);
   window.open(url, "__blank");

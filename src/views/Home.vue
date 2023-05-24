@@ -1,6 +1,5 @@
 <template>
   <VApp>
-    {{ isWithColor }}
     <!-- SIDEBAR -->
     <SideBar @selectOption="onSelectOption" />
     <VMain>
