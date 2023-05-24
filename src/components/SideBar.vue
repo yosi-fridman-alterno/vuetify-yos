@@ -9,7 +9,7 @@ const selectOption = (isColor: boolean) => {
 </script>
 
 <template>
-  <VNavigationDrawer expand-on-hover rail>
+  <VNavigationDrawer>
 
     <VList>
       <VListItem prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg" title="Yosi Fridman"
